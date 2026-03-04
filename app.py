@@ -7,6 +7,26 @@ import random # 순서 섞기용
 # ---------------------------------------------------------
 st.set_page_config(page_title="아빠표 단어 시험", page_icon="📝")
 
+# --- UI 커스텀 CSS (폰트 크기 조절) ---
+st.markdown("""
+    <style>
+    /* 1. 텍스트 입력창 안의 글자 크기 및 높이 키우기 */
+    div[data-baseweb="input"] input {
+        font-size: 28px !important;
+        font-weight: bold !important;
+        padding: 15px !important;
+    }
+    
+    /* 2. 정답/오답 피드백 알림창(success, error 등)의 글자 크기 키우기 */
+    div[data-testid="stNotification"] div[data-testid="stMarkdownContainer"] p {
+        font-size: 24px !important;
+        font-weight: bold !important;
+        line-height: 1.4 !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+
 # 세션 상태 초기화
 if 'quiz_state' not in st.session_state:
     st.session_state['quiz_state'] = 'SETUP' 
@@ -65,8 +85,8 @@ def check_answer():
 # ---------------------------------------------------------
 # 3. 화면 구성
 # ---------------------------------------------------------
-# 기존 st.title("⚡ Speed 단어 시험") 부분을 아래로 교체하세요
-st.title("⚡라엘이❤️의 DYB 단어시험 뽀개기😁")
+# 타이틀 변경 및 폰트 크기 약간 축소 (기본 h1보다 작은 30px 적용)
+st.markdown("<h2 style='font-size: 30px;'>❤️보석같은 라엘❤️ 단어시험 뽀개기😁</h2>", unsafe_allow_html=True)
 
 # (A) 설정 화면
 if st.session_state['quiz_state'] == 'SETUP':
@@ -123,7 +143,7 @@ elif st.session_state['quiz_state'] == 'TESTING':
         on_change=check_answer
     )
 
-# (C) 결과 화면 (여기가 수정되었습니다)
+# (C) 결과 화면
 elif st.session_state['quiz_state'] == 'FINISHED':
     score = st.session_state['score']
     total = len(st.session_state['quiz_data'])
@@ -143,11 +163,9 @@ elif st.session_state['quiz_state'] == 'FINISHED':
     if st.session_state['wrong_answers']:
         st.markdown("### 🚨 틀린 단어 확인하기")
         
-        # [수정된 부분 시작] -----------------------
         wrong_df = pd.DataFrame(st.session_state['wrong_answers'])
         wrong_df.index = wrong_df.index + 1 # 0,1,2...를 1,2,3...으로 변경
         st.table(wrong_df)
-        # [수정된 부분 끝] -------------------------
         
         st.warning("👇 틀린 문제만 모아서 다시 시험 볼 수 있어요!")
         
@@ -163,7 +181,7 @@ elif st.session_state['quiz_state'] == 'FINISHED':
                 
                 st.session_state['quiz_data'] = retry_data
                 
-                # 상태 리셋 (중요: wrong_answers를 비워야 재시험 오답을 새로 담음)
+                # 상태 리셋
                 st.session_state['quiz_state'] = 'TESTING'
                 st.session_state['current_index'] = 0
                 st.session_state['score'] = 0

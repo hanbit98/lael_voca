@@ -29,6 +29,7 @@ st.markdown("""
         font-size: 22px;
         font-weight: bold;
         margin-bottom: 10px;
+        white-space: pre-wrap;  /* 👈 이 줄을 추가하세요! (연속된 공백을 그대로 유지해줍니다) */
     }
     
     /* 4. 해석 폰트 크기 키우기 및 색상 지정 */

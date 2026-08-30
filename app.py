@@ -5,7 +5,7 @@ import random # 순서 섞기용
 # ---------------------------------------------------------
 # 1. 초기 설정 및 데이터 로드
 # ---------------------------------------------------------
-st.set_page_config(page_title="아빠표 단어 시험", page_icon="📝")
+st.set_page_config(page_title="아빠표 단어 시험", page_icon="📝", layout="centered")
 
 # --- UI 커스텀 CSS (폰트 크기 조절) ---
 st.markdown("""
@@ -22,6 +22,20 @@ st.markdown("""
         font-size: 24px !important;
         font-weight: bold !important;
         line-height: 1.4 !important;
+    }
+    
+    /* 3. 예문 폰트 크기 키우기 */
+    .exam-sentence {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    /* 4. 해석 폰트 크기 키우기 및 색상 지정 */
+    .korean-translation {
+        font-size: 18px;
+        color: #0066cc;
+        margin-bottom: 20px;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -46,8 +60,9 @@ if 'last_feedback' not in st.session_state:
 def load_data():
     try:
         df = pd.read_csv('vocab.csv')
-        df['English'] = df['English'].str.strip()
-        df['Korean'] = df['Korean'].str.strip()
+        # 새로운 CSV 포맷에 맞게 공백 제거 처리
+        if '정답 단어' in df.columns:
+            df['정답 단어'] = df['정답 단어'].astype(str).str.strip()
         return df
     except FileNotFoundError:
         return pd.DataFrame()
@@ -66,16 +81,18 @@ def check_answer():
 
     current_word = data[current_idx]
     user_input = st.session_state.user_input
-    correct_answer = current_word['English']
+    correct_answer = str(current_word['정답 단어'])
 
+    # 정답 체크 (대소문자 무시, 공백 무시)
     if user_input.strip().lower() == correct_answer.strip().lower():
         st.session_state['score'] += 1
         st.session_state['last_feedback'] = (f"⭕ 정답! '{correct_answer}'", True)
     else:
         st.session_state['wrong_answers'].append({
-            'English': correct_answer,
-            'Korean': current_word['Korean'],
-            'My Answer': user_input
+            '정답 단어': correct_answer,
+            '나의 답': user_input,
+            '예문': current_word.get('예문', ''),
+            '한글 해석': current_word.get('한글 해석', '')
         })
         st.session_state['last_feedback'] = (f"❌ 땡! 정답은 '{correct_answer}' (입력: {user_input})", False)
 
@@ -85,15 +102,19 @@ def check_answer():
 # ---------------------------------------------------------
 # 3. 화면 구성
 # ---------------------------------------------------------
-# 타이틀 변경 및 폰트 크기 약간 축소 (기본 h1보다 작은 30px 적용)
+# 타이틀
 st.markdown("<h2 style='font-size: 30px;'>❤️보석같은 라엘❤️ 단어시험 뽀개기😁</h2>", unsafe_allow_html=True)
 
 # (A) 설정 화면
 if st.session_state['quiz_state'] == 'SETUP':
     if not df.empty:
         st.info("엔터키를 치면 바로 채점하고 다음 문제로 넘어갑니다!")
-        days = df['Day'].unique()
-        selected_day = st.selectbox("Day 선택", days)
+        if 'Day' in df.columns:
+            days = df['Day'].unique()
+            selected_day = st.selectbox("Day 선택", days)
+        else:
+            st.error("CSV 파일에 'Day' 열이 없습니다.")
+            st.stop()
         
         if st.button("시험 시작하기!"):
             day_data = df[df['Day'] == selected_day]
@@ -108,7 +129,7 @@ if st.session_state['quiz_state'] == 'SETUP':
             st.session_state['last_feedback'] = None
             st.rerun()
     else:
-        st.error("'vocab.csv' 파일을 넣어주세요.")
+        st.error("'vocab.csv' 파일을 넣어주세요. (컬럼: Day, 순서, 정답 단어, 예문, 한글 해석)")
 
 # (B) 시험 화면
 elif st.session_state['quiz_state'] == 'TESTING':
@@ -135,10 +156,13 @@ elif st.session_state['quiz_state'] == 'TESTING':
 
     st.markdown("---")
     st.markdown(f"#### 문제 {current_idx + 1}/{total_q}")
-    st.markdown(f"## 뜻: <span style='color:blue'>{current_word['Korean']}</span>", unsafe_allow_html=True)
+    
+    # 예문과 한글 해석 출력
+    st.markdown(f"<div class='exam-sentence'>{current_word.get('예문', '')}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div class='korean-translation'>{current_word.get('한글 해석', '')}</div>", unsafe_allow_html=True)
 
     st.text_input(
-        label="영어 단어를 입력하고 Enter를 치세요",
+        label="빈칸에 들어갈 영어 단어를 입력하고 Enter를 치세요",
         key="user_input",
         on_change=check_answer
     )
@@ -163,6 +187,7 @@ elif st.session_state['quiz_state'] == 'FINISHED':
     if st.session_state['wrong_answers']:
         st.markdown("### 🚨 틀린 단어 확인하기")
         
+        # 틀린 문제 표 출력
         wrong_df = pd.DataFrame(st.session_state['wrong_answers'])
         wrong_df.index = wrong_df.index + 1 # 0,1,2...를 1,2,3...으로 변경
         st.table(wrong_df)

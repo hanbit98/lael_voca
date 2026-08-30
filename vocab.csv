@@ -1,151 +1,60 @@
-﻿Day,ID,English,Korean
-Day 56 : Transportation & Communication,3451,ascend,"오르다, 올라가다"
-Day 56 : Transportation & Communication,3452,buffer,"완충제, 완충 장치 / (충격 등을) 완화하다"
-Day 56 : Transportation & Communication,3453,communicate,"(정보·감정 등을) 전달하다, 의사소통하다"
-Day 56 : Transportation & Communication,3454,convey,"(정보·감정 등을) 전달하다; 운반하다, 수송하다"
-Day 56 : Transportation & Communication,3455,descend,"내려가다, 내려오다, 내리다"
-Day 56 : Transportation & Communication,3456,deviate,"(진로·원칙·예상 등에서) 벗어나다, 일탈하다 / (정상 궤도에서) 벗어난, 빗나간"
-Day 56 : Transportation & Communication,3457,leisurely,"여유로운, 한가한 / 여유롭게, 한가하게"
-Day 56 : Transportation & Communication,3458,link,"연결하다, 관련짓다 / 연결 (고리), 관련, 관계"
-Day 56 : Transportation & Communication,3459,meaningful,"의미 있는, 중요한"
-Day 56 : Transportation & Communication,3460,navigation,"항해, 운항"
-Day 56 : Transportation & Communication,3461,pathway,경로; (좁은) 길
-Day 56 : Transportation & Communication,3462,previous,"(시간·순서상으로) 이전의, 앞의"
-Day 56 : Transportation & Communication,3463,rapid,"빠른, 신속한; 가파른, 급한"
-Day 56 : Transportation & Communication,3464,stationary,"정지된, 움직이지 않는; 변하지 않는"
-Day 56 : Transportation & Communication,3465,straightforward,"솔직한; 직접의, 똑바른"
-Day 56 : Transportation & Communication,3466,terminal,"최종적인, 끝의, 말기의 / 종점, 종착지, 터미널"
-Day 56 : Transportation & Communication,3467,trail,"오솔길, 시골길; 흔적, 자취 / 끌다, 끌고 가다; 추적하다"
-Day 56 : Transportation & Communication,3468,transcribe,"기록하다, 문자화하다"
-Day 56 : Transportation & Communication,3469,transition,"변화, 변천, 이행"
-Day 56 : Transportation & Communication,3470,transmit,"전송하다, 보내다, 전달하다"
-Day 56 : Transportation & Communication,3471,transport,"수송하다, 운송하다 / 수송; 운송 수단"
-Day 56 : Transportation & Communication,3472,vessel,"(대형) 배, 선박; 그릇, 용기"
-Day 56 : Transportation & Communication,3473,canal,"운하, 수로"
-Day 56 : Transportation & Communication,3474,installment,할부(금); (시리즈 등의) 1회분
-Day 56 : Transportation & Communication,3475,intersect,"교차하다, 가로지르다"
-Day 56 : Transportation & Communication,3476,locomotion,"이동, 운동 (능력)"
-Day 56 : Transportation & Communication,3477,momentum,"추진력, 탄력; 가속도"
-Day 56 : Transportation & Communication,3478,shuttle,"정기 왕복 버스/기차/항공기 / 실어 나르다; 왕복하다, 오가다"
-Day 56 : Transportation & Communication,3479,submerge,"물에 잠기다, 잠수하다; 몰두하게 하다"
-Day 56 : Transportation & Communication,3480,transfer,"옮기다, 이동하다; 환승하다 / 이동, 이전; 환승"
-Day 57 : Statistics,3481,ambiguous,"애매모호한, 여러 뜻으로 해석되는"
-Day 57 : Statistics,3482,analysis,"분석, 해석"
-Day 57 : Statistics,3483,approximate,"대략적인; 거의 비슷한 / ~에 근접하다, ~에 가깝다"
-Day 57 : Statistics,3484,category,"부문, 범주, 카테고리"
-Day 57 : Statistics,3485,classify,"분류하다, 등급을 나누다"
-Day 57 : Statistics,3486,current,"현재의; 통용되는 / (해류·전류 등의) 흐름; 경향, 추세"
-Day 57 : Statistics,3487,differentiate,"구별하다, 차별하다"
-Day 57 : Statistics,3488,diffuse,"분산되다, 분산하다, 번지다, 퍼지다 / 분산된, 널리 퍼진"
-Day 57 : Statistics,3489,distinguish,"구별하다, 식별하다, 두드러지게 하다"
-Day 57 : Statistics,3490,identify,"확인하다, 식별하다"
-Day 57 : Statistics,3491,method,"방법, 방식"
-Day 57 : Statistics,3492,mutual,"공동의, 공동의; 서로의, 상호 간의"
-Day 57 : Statistics,3493,origin,"기원, 유래; 태생, 출신"
-Day 57 : Statistics,3494,outlook,"(미래에 대한) 전망, 예상; 관점; 경치"
-Day 57 : Statistics,3495,overlap,"겹치다, 겹쳐지다, 포개다, 포개지다 / 겹침, 포개짐"
-Day 57 : Statistics,3496,predominate,"우세하다, 지배적이다"
-Day 57 : Statistics,3497,prevalent,"널리 퍼진, 일반적인"
-Day 57 : Statistics,3498,rate,"~율, 비율; 요금, ~료; 속도 / 평가하다, 등급을 매기다, 순위를 매기다"
-Day 57 : Statistics,3499,ratio,비(율)
-Day 57 : Statistics,3500,section,"부분, 부문, 구획, 구역"
-Day 57 : Statistics,3501,separate,"분리된, 별도의 / 분리하다, 분리되다, 나누다, 나뉘다"
-Day 57 : Statistics,3502,standard,"수준; 표준, 기준 / 표준의, 일반적인"
-Day 57 : Statistics,3503,assorted,"갖가지의, 여러 가지의"
-Day 57 : Statistics,3504,criterion,"(판단·평가 등의) 기준, 표준, 척도"
-Day 57 : Statistics,3505,faction,"파벌, 당파"
-Day 57 : Statistics,3506,index,(물가·임금 등의) 지수; (책의) 색인
-Day 57 : Statistics,3507,mainstream,"주류, 대세 / 주류에 편입시키다"
-Day 57 : Statistics,3508,partisan,"당파적인, 편파적인 / 당원, 열렬한 지지자"
-Day 57 : Statistics,3509,specimen,"표본, 견본"
-Day 57 : Statistics,3510,statistics,통계 (자료); 통계학
-Day 58 : Demographics,3511,adolescence,"청소년기, 사춘기"
-Day 58 : Demographics,3512,adulthood,"성인기, 성년"
-Day 58 : Demographics,3513,alienate,"소외감을 느끼게 하다, 멀리하다"
-Day 58 : Demographics,3514,dense,"밀도가 높은, 빽빽한"
-Day 58 : Demographics,3515,discriminate,"차별하다; 구별하다, 분간하다"
-Day 58 : Demographics,3516,divorce,"이혼하다, 분리하다 / 이혼, 분리"
-Day 58 : Demographics,3517,generation,세대; 발생
-Day 58 : Demographics,3518,hierarchy,"계급, 계층; (분류 등을 위한) 체계"
-Day 58 : Demographics,3519,hostile,"적대적인, 비우호적인"
-Day 58 : Demographics,3520,individual,"개인, 개체 / 개인의, 개인(용)의, 개별적인"
-Day 58 : Demographics,3521,juvenile,청소년의; 미숙한 / 청소년
-Day 58 : Demographics,3522,kinship,"친척 관계, 친족"
-Day 58 : Demographics,3523,majority,"(집단 중) 대부분, 다수; 성년(기) / 다수의, 과반의"
-Day 58 : Demographics,3524,migrate,"이주하다, 이동하다"
-Day 58 : Demographics,3525,minority,"소수, 소수집단; 미성년(기)"
-Day 58 : Demographics,3526,offspring,"자손, 자식, (동물의) 새끼"
-Day 58 : Demographics,3527,racial,"인종(간)의, 종족의"
-Day 58 : Demographics,3528,relative,"비교적인, 상대적인; 관련된 / 친척, 일가; 동족"
-Day 58 : Demographics,3529,scatter,"(뿔뿔이) 흩어지다, 흩뿌리다"
-Day 58 : Demographics,3530,segregate,"분리하다, 차별하다"
-Day 58 : Demographics,3531,sparsely,"드문드문, 성기게"
-Day 58 : Demographics,3532,spouse,배우자
-Day 58 : Demographics,3533,birthrate,"출생률, 출산율"
-Day 58 : Demographics,3534,demographic,"인구(학)의, 인구통계학적인 / 인구통계"
-Day 58 : Demographics,3535,emigrant,"이주민, 이민자"
-Day 58 : Demographics,3536,fetus,태아
-Day 58 : Demographics,3537,gender,"성별, 성"
-Day 58 : Demographics,3538,immigrate,"이민 오다, 이주해 오다"
-Day 58 : Demographics,3539,parental,"부모의, 어버이의"
-Day 58 : Demographics,3540,pregnant,"임신한, 임신 중인"
-Day 59 : Social Issues (1),3541,admit,"인정하다, 자백하다; 받아들이다, 가입을 허락하다"
-Day 59 : Social Issues (1),3542,assassin,"암살자, 자객"
-Day 59 : Social Issues (1),3543,benefit,"~에 이익이 되다, 득을 보다 / 혜택, 이득, 이익"
-Day 59 : Social Issues (1),3544,clue,"단서, 실마리"
-Day 59 : Social Issues (1),3545,compete,경쟁하다; (시합 등에) 참가하다
-Day 59 : Social Issues (1),3546,corrupt,"부패한, 타락한 / 부패하게 하다, 타락시키다"
-Day 59 : Social Issues (1),3547,deceive,"속이다, 기만하다"
-Day 59 : Social Issues (1),3548,disrupt,"붕괴시키다; 방해하다, 혼란을 주다"
-Day 59 : Social Issues (1),3549,expel,"추방하다, 쫓아내다, 배출하다"
-Day 59 : Social Issues (1),3550,fraud,"사기(죄), 기만"
-Day 59 : Social Issues (1),3551,harass,"괴롭히다, 공격하다"
-Day 59 : Social Issues (1),3552,imprison,"감옥에 넣다, 감금하다"
-Day 59 : Social Issues (1),3553,oath,"맹세, 서약, 선서"
-Day 59 : Social Issues (1),3554,penalty,"처벌, 벌칙, 벌금; 불이익"
-Day 59 : Social Issues (1),3555,punish,"처벌하다, (형벌에) 처하다"
-Day 59 : Social Issues (1),3556,reconciliation,"화해, 조화"
-Day 59 : Social Issues (1),3557,resent,"~에 분개하다, ~에 대해 분하게 여기다"
-Day 59 : Social Issues (1),3558,shelter,"보호소, 피난(처); 주거지 / (위험 등에서) 보호하다, 피할 곳을 제공하다"
-Day 59 : Social Issues (1),3559,state,"진술하다, 말하다, 명시하다 / (행정 구역을 나타내는) 주; 국가, 나라; 상태, 형편"
-Day 59 : Social Issues (1),3560,tension,"긴장, 불안; 팽팽함"
-Day 59 : Social Issues (1),3561,turmoil,"혼란, 소동, 소란"
-Day 59 : Social Issues (1),3562,verify,"(사실인지) 확인하다, 확인해주다, 입증하다"
-Day 59 : Social Issues (1),3563,accommodate,"(인원을) 수용하다, 공간을 제공하다; 적응하다"
-Day 59 : Social Issues (1),3564,allege,(충분한 증거 없이) 혐의를 제기하다
-Day 59 : Social Issues (1),3565,casualty,"(재해·사고 등의) 사상자, 피해(자)"
-Day 59 : Social Issues (1),3566,confrontation,"대립, 대치"
-Day 59 : Social Issues (1),3567,conspiracy,"음모, 공모"
-Day 59 : Social Issues (1),3568,homeless,"(the를 앞에 함께 써서) 노숙인, 노숙자 / 집이 없는, 노숙자의"
-Day 59 : Social Issues (1),3569,suspect,"의심하다, 수상쩍어하다 / 용의자 / 의심스러운, 수상한"
-Day 59 : Social Issues (1),3570,welfare,"복지; 안녕, 행복"
-Day 60 : Social Issues (2),3571,abandon,"버리다, 버리고 떠나다, 포기하다"
-Day 60 : Social Issues (2),3572,aggressive,"공격적인, 침략적인"
-Day 60 : Social Issues (2),3573,arrest,"체포하다; 정지시키다 / 체포; 정지, 저지"
-Day 60 : Social Issues (2),3574,banish,"추방하다, 내쫓다, 제거하다"
-Day 60 : Social Issues (2),3575,captivity,"감금, 억류"
-Day 60 : Social Issues (2),3576,compensate,"보상하다, 보충하다"
-Day 60 : Social Issues (2),3577,cope with,"~에 대처하다, ~을 처리하다"
-Day 60 : Social Issues (2),3578,criminal,"범죄자, 범인 / 범죄의, 형사상의"
-Day 60 : Social Issues (2),3579,deprive,"빼앗다, 박탈하다"
-Day 60 : Social Issues (2),3580,enrich,"풍요롭게 하다, 풍부하게 하다"
-Day 60 : Social Issues (2),3581,exploit,"착취하다; 이용하다, 활용하다 / 위업, 공적"
-Day 60 : Social Issues (2),3582,highlight,"강조하다, 강조 표시를 하다 / 가장 중요한 부분, 하이라이트"
-Day 60 : Social Issues (2),3583,inhospitable,사람이 살기 힘든; 불친절한
-Day 60 : Social Issues (2),3584,intrusion,"침해, 침범, 방해"
-Day 60 : Social Issues (2),3585,offend,불쾌하게 하다; (법·규범 등을) 위반하다
-Day 60 : Social Issues (2),3586,poverty,"가난, 빈곤; 부족"
-Day 60 : Social Issues (2),3587,rebel,"반역자, 반대자 / 반역하다, 반항하다"
-Day 60 : Social Issues (2),3588,riot,"폭동, 소동, 소요"
-Day 60 : Social Issues (2),3589,starvation,"기아, 굶주림"
-Day 60 : Social Issues (2),3590,strife,"갈등, 불화, 다툼"
-Day 60 : Social Issues (2),3591,theft,"도난, 절도, 도둑질"
-Day 60 : Social Issues (2),3592,witness,"목격자; 증인 / 목격하다; 입증하다, 증언하다"
-Day 60 : Social Issues (2),3593,accompany,동행하다; 동반되다
-Day 60 : Social Issues (2),3594,bribe,"~에게 뇌물을 주다, ~를 매수하다 / 뇌물"
-Day 60 : Social Issues (2),3595,famine,"기근, 기아"
-Day 60 : Social Issues (2),3596,guilty,유죄인; 죄책감을 느끼는
-Day 60 : Social Issues (2),3597,hostage,"인질, 볼모"
-Day 60 : Social Issues (2),3598,outcast,"추방자, 따돌림당하는 사람 / 쫓겨난, 따돌림당하는"
-Day 60 : Social Issues (2),3599,unanimous,"만장일치의, 의견이 같은"
-Day 60 : Social Issues (2),3600,violence,"폭력, 폭행; 사나움, 맹렬함"
+﻿Day 01,1,advantages,"Even though bacteria may do harm, they also provide ( ) to health.","비록 박테리아가 해를 끼칠지도 모르지만, 그것들은 건강에 이점을 제공하기도 한다."
+Day 01,2,aspects,The writing on the stones gave researchers a look into many different ( ) of Viking society and culture.,그 비석에 쓰인 것은 연구원들이 바이킹 사회와 문화의 많은 다양한 측면들을 들여다보게 해주었다.
+Day 01,3,associate,"Although we often ( ) floods with disaster, centuries ago, floods were viewed in a different light.","비록 우리는 홍수를 종종 재난과 연관 짓지만, 몇 세기 전에는 홍수가 다른 관점에서 생각되었다."
+Day 01,4,assume,"Buyers ( ) that if they pay a lot, the product is going to be good.","구매자들은 그들이 많은 돈을 지불하면, 그 제품이 좋을 것이라고 추정한다."
+Day 01,5,caution,Experts ( ) that it is wise to seek a second opinion when checking for an illness.,전문가들은 질병을 검사할 때 다른 의사의 의견을 구하는 것이 현명하다고 주의를 준다.
+Day 01,6,common,It is ( ) for children to spend many hours each day playing mobile games or surfing the Internet.,어린이들이 매일 모바일 게임을 하거나 인터넷을 검색하는 데 많은 시간을 보내는 것은 일반적이다.
+Day 01,7,complete,"The ancient city of Petra began construction in 600 BC, and it took 450 years to ( ) it.","고대 도시 페트라는 기원전 600년에 건설을 시작했고, 그것을 완성하는 데 450년이 걸렸다."
+Day 01,8,consider,People throw out a lot of garbage and rarely ( ) the impact of creating so much waste.,사람들은 많은 쓰레기를 버리면서 그렇게 많은 쓰레기를 만드는 것의 영향에 대해서는 거의 고려하지 않는다.
+Day 01,9,correspond,"Tyrannosaurus rex had small eyes, which normally ( ) to poor vision.","티라노사우루스 렉스는 작은 눈을 가지고 있었는데, 이것은 보통 나쁜 시력에 부합했다."
+Day 01,10,details,You can find more ( ) about how to put together the furniture online.,당신은 그 가구를 조립하는 방법에 대한 더 많은 상세한 설명을 온라인에서 찾을 수 있다.
+Day 01,11,discussed,"Yesterday, we ( ) several cooking methods that are a little bit different from traditional ones.","어제, 우리는 전통적인 것과는 조금 다른 여러 조리 방법을 논의했다."
+Day 01,12,drastically,"The warming climate can ( ) change sea levels, causing destruction.","따뜻해지는 기후는 해수면을 급격하게 변화시켜, 파괴를 일으킬 수 있다."
+Day 01,13,encloses,A five-meter-high fence ( ) the tigers to protect the visitors and other animals.,5미터 높이의 울타리가 방문객들과 다른 동물들을 보호하기 위해 호랑이들을 둘러싸고 있다.
+Day 01,14,examine,Let's ( ) the historical record and try to figure out what happened on the Titanic.,역사적인 기록을 조사해서 타이타닉호에서 무슨 일이 있었는지 알아내 보자.
+Day 01,15,explored,A historian has argued that the Chinese had already ( ) America before Columbus arrived in 1492.,한 역사학자가 1492년에 콜럼버스가 도착하기 전에 중국인들이 이미 아메리카 대륙을 탐험했다고 주장했다.
+Day 01,16,feasible,Do you think it is ( ) for mankind to travel to another galaxy one day?,인류가 언젠가 다른 은하로 여행하는 것이 실현 가능하다고 생각하니?
+Day 01,17,foresee,"In Shakespeare's Macbeth, three witches ( ) three important events in Macbeth's life.","셰익스피어의 '맥베스'에서, 세 명의 마녀가 이 맥베스의 삶에서 세 가지 중요한 사건들을 예견한다."
+Day 01,18,harbor,It is unhealthy to ( ) negative feelings and thoughts for a long time.,부정적인 감정과 생각을 오랫동안 품는 것은 건강에 좋지 않다.
+Day 01,19,highly,"Before 1840, education was ( ) limited and only permitted to the wealthy.","1840년 전에는, 교육이 매우 제한되어 있었고 오로지 부자들에게만 허용되었다."
+Day 01,20,hinted,The newspaper ( ) that the mayor would make an important announcement.,그 신문은 시장이 중요한 발표를 할 것임을 암시했다.
+Day 01,21,indirect,People use hand gestures as an ( ) form of communication.,사람들은 의사소통의 간접적인 형태로 손동작을 사용한다.
+Day 01,22,mandated,Ms. Russo ( ) old employee policies be updated before the end of the year.,Russo 씨는 올해가 끝나기 전에 낡은 직원 정책을 업데이트할 것을 명령했다.
+Day 01,23,options,"Because technology has provided so many entertainment ( ), people spend less time outdoors.","기술이 너무 많은 오락 선택지를 제공해왔기 때문에, 사람들은 야외에서 시간을 덜 보낸다."
+Day 01,24,prevailed,"Before the sixth century, Christianity ( ) among the upper class.","6세기 이전에, 기독교는 상류층 사이에서 유행했다."
+Day 01,25,recur,Nature and animals are common themes that ( ) in the poems of Ted Hughes.,자연과 동물은 Ted Hughes의 시에서 되풀이되는 일반적인 주제이다.
+Day 01,26,size up,A sharp businessperson is able to ( ) a difficult situation and provide a quick solution.,예리한 사업가는 어려운 상황을 판단해서 빠른 해결책을 제공할 수 있다.
+Day 01,27,consecutive,"In spite of three ( ) losses, the team made it to the championship match.","세 번의 잇따른 패배에도 불구하고, 그 팀은 챔피언 결승전에 진출했다."
+Day 01,28,embed,Most companies ( ) advertisements in their Web sites or mobile apps.,대부분의 회사들은 그들의 웹사이트나 모바일 앱에 광고를 끼워 넣는다.
+Day 01,29,overturn,The Supreme Court can ( ) any decision made by a local judge.,대법원은 지방 판사가 내린 어떤 결정이든 뒤집을 수 있다.
+Day 01,30,tangible,It will take years to see the ( ) effects of switching from oil to solar or wind energy.,석유에서 태양이나 풍력 에너지로 전환하는 것의 실제 효과를 보는 데는 수년이 걸릴 것이다.
+Day 02,1,affirm,Historians could not ( ) whether the text was really written by Socrates.,역사학자들은 그 글이 정말로 소크라테스에 의해 쓰였는지 단언할 수 없었다.
+Day 02,2,assure,Telephone companies ( ) consumers that their private information will not be used for other purposes.,전화 회사들은 소비자들에게 그들의 개인 정보가 다른 목적으로 사용되지 않을 것이라고 보증한다.
+Day 02,3,attract,"To ( ) customers, the baby food company gave away free samples.","고객들을 끌어들이기 위해, 그 이유식 회사는 무료 샘플을 나누어 주었다."
+Day 02,4,censor,TV stations ( ) violent movies before showing them to the public.,TV 방송국들은 폭력적인 영화를 대중에게 보여주기 전에 검열한다.
+Day 02,5,certainly,"As you've ( ) seen on the news, storms and hurricanes can sometimes destroy entire neighborhoods.","당신이 뉴스에서 분명히 본 것처럼, 폭풍과 허리케인은 때때로 인근 지역 전체를 파괴할 수 있다."
+Day 02,6,complicate,A survey shows that young people do not want to get married early because they feel it would ( ) their lives.,한 조사는 젊은 사람들이 결혼이 그들의 삶을 복잡하게 할 것이라고 생각하기 때문에 일찍 결혼하기를 원하지 않는다는 것을 보여준다.
+Day 02,7,consists,A large part of the photographer's work ( ) of pictures of herself.,그 사진작가의 작품 중 많은 부분이 그녀 자신의 사진으로 구성되어 있다.
+Day 02,8,contended,The lecturer ( ) that copying artwork was a serious crime in Michelangelo's time.,그 강연자는 예술품을 복제하는 것이 미켈란젤로의 시대에 심각한 범죄였다고 주장했다.
+Day 02,9,develop,Science will be able to ( ) techniques to solve food problems in the future.,과학은 미래에 식량 문제를 해결할 기술을 개발할 수 있을 것이다.
+Day 02,10,disposal,The ( ) of nuclear waste is extremely difficult and dangerous.,핵폐기물의 처리는 극도로 어렵고 위험하다.
+Day 02,11,encourages,Poor sleep causes high blood pressure and ( ) weight gain.,잠을 잘 자지 못하는 것은 고혈압을 일으키고 체중 증가를 촉진한다.
+Day 02,12,example,Koala bears are an ( ) of animals only found in Australia.,코알라는 호주에서만 발견되는 동물의 한 예이다.
+Day 02,13,external,"Although the ( ) part of the building was old, the inside was surprisingly clean and modern.","그 건물의 바깥 부분은 낡았지만, 내부는 놀라울 정도로 깨끗하고 현대적이었다."
+Day 02,14,fairly,"In fact, most Native Americans did not use a writing system to express their own languages until ( ) recently.","사실, 대부분의 북미 원주민들은 꽤 최근까지 그들만의 언어를 표현하기 위한 문자 체계를 사용하지 않았다."
+Day 02,15,feat,"It seemed like an impossible dream for mankind to go to the moon, but the amazing ( ) was achieved by NASA in 1969.","인류가 달에 가는 것은 불가능한 꿈처럼 보였지만, 그 놀라운 위업은 1969년에 NASA에 의해 달성되었다."
+Day 02,16,form,"In the modern age, social media and the Internet can often ( ) the way young children act and think.","현대에, 소셜 미디어와 인터넷은 종종 어린 아이들이 행동하고 생각하는 방식을 형성할 수 있다."
+Day 02,17,honorable,Many military medals are given to soldiers who are ( ) and courageous.,많은 군사 훈장이 명예롭고 용기 있는 군인들에게 주어진다.
+Day 02,18,immense,Few people realize the ( ) size of the blue whale until they see one in person.,흰긴수염고래를 직접 보기 전까지 그것의 엄청난 크기를 실감하는 사람은 거의 없다.
+Day 02,19,imminent,"Because of the rising trouble between the countries, world leaders believed a war was ( ).","국가들 사이의 증가하는 분쟁 때문에, 세계 지도자들은 전쟁이 눈앞에 닥쳤다고 믿었다."
+Day 02,20,infinite,"Although we know that numbers are ( ), it is a concept that the human mind has trouble understanding.","비록 우리는 숫자가 무한하다는 것을 알고 있지만, 그것은 인간의 정신이 이해하는 데 어려움을 겪는 개념이다."
+Day 02,21,marked,There is a ( ) difference in the behavior of students when they are encouraged rather than criticized.,비판받을 때보다는 격려받을 때 학생들의 행동에 뚜렷한 차이가 있다.
+Day 02,22,overall,"Once new technologies were discovered, the ( ) quality of glass improved.","새로운 기술이 발견되자마자, 유리의 전반적인 질이 개선되었다."
+Day 02,23,prime,"The 1930s and 1940s were the ( ) of American radio, when it was an essential part of daily life.","1930년대와 1940년대는 미국 라디오의 전성기였는데, 그 당시에 그것은 일상생활의 필수적인 부분이었다."
+Day 02,24,solely,The government should make a strong attempt to protect the environment rather than focus ( ) on economic growth.,정부는 오로지 경제 성장에만 집중하기보다는 환경을 보호하기 위해 강력한 시도를 해야 한다.
+Day 02,25,suffice,Taking a multivitamin once a day will ( ) for most healthy adults.,대부분의 건강한 성인들에게는 하루에 한 번 종합비타민을 복용하는 것으로 충분할 것이다.
+Day 02,26,tend,People who live alone ( ) to keep the TV on because they feel lonely.,혼자 사는 사람들은 외로움을 느끼기 때문에 TV를 계속 켜두는 경향이 있다.
+Day 02,27,counteracts,Medicine that ( ) feelings of anxiety can also make you feel sleepy.,불안감을 없애는 약은 당신을 졸리게 할 수도 있다.
+Day 02,28,enforce,"Starting next month, police will ( ) the new speeding law.","다음 달부터, 경찰은 새로운 과속 법규를 시행할 것이다."
+Day 02,29,overwhelmed,A feeling of sorrow ( ) citizens when they saw that the statue was damaged.,그 동상이 훼손된 것을 보았을 때 슬픔 감정이 시민들을 압도했다.
+Day 02,30,reluctant,Coyotes are usually ( ) to attack animals larger than themselves.,코요테는 보통 자신보다 더 큰 동물을 공격하기를 주저한다.

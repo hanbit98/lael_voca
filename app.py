@@ -59,12 +59,24 @@ if 'last_feedback' not in st.session_state:
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv('vocab.csv')
-        # 새로운 CSV 포맷에 맞게 공백 제거 처리
-        if '정답 단어' in df.columns:
-            df['정답 단어'] = df['정답 단어'].astype(str).str.strip()
+        # utf-8-sig로 읽어서 한글 깨짐 및 눈에 보이지 않는 특수문자(\ufeff) 문제 방지
+        df = pd.read_csv('vocab.csv', encoding='utf-8-sig')
+        
+        # 맨 윗줄(1행)이 'Day'가 아니라 데이터('Day 01' 등)라면 헤더가 없는 것으로 간주
+        if 'Day' not in df.columns:
+            # 헤더 없이 다시 읽고, 이름을 강제로 지정
+            df = pd.read_csv('vocab.csv', header=None, names=['Day', '순서', '정답 단어', '예문', '한글 해석'], encoding='utf-8-sig')
+        else:
+            # 헤더가 있는 경우, 기둥 이름을 강제로 통일 ('정답'이라고 썼을 수도 있으므로)
+            df.columns = ['Day', '순서', '정답 단어', '예문', '한글 해석']
+            
+        # 정답 입력 시 띄어쓰기 오류 방지를 위해 공백 제거
+        df['정답 단어'] = df['정답 단어'].astype(str).str.strip()
         return df
     except FileNotFoundError:
+        return pd.DataFrame()
+    except Exception as e:
+        st.error(f"데이터 로드 중 오류 발생: {e}")
         return pd.DataFrame()
 
 df = load_data()
@@ -113,7 +125,7 @@ if st.session_state['quiz_state'] == 'SETUP':
             days = df['Day'].unique()
             selected_day = st.selectbox("Day 선택", days)
         else:
-            st.error("CSV 파일에 'Day' 열이 없습니다.")
+            st.error("CSV 파일 구조에 문제가 있습니다. 파일 형식을 확인해주세요.")
             st.stop()
         
         if st.button("시험 시작하기!"):
@@ -129,7 +141,7 @@ if st.session_state['quiz_state'] == 'SETUP':
             st.session_state['last_feedback'] = None
             st.rerun()
     else:
-        st.error("'vocab.csv' 파일을 넣어주세요. (컬럼: Day, 순서, 정답 단어, 예문, 한글 해석)")
+        st.error("'vocab.csv' 파일을 넣어주세요. (단어1부터 바로 시작해도 됩니다!)")
 
 # (B) 시험 화면
 elif st.session_state['quiz_state'] == 'TESTING':

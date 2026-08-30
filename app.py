@@ -169,9 +169,10 @@ elif st.session_state['quiz_state'] == 'TESTING':
 
     st.markdown("---")
     st.markdown(f"#### 문제 {current_idx + 1}/{total_q}")
-    
-    # 예문과 한글 해석 출력
-    st.markdown(f"<div class='exam-sentence'>{current_word.get('예문', '')}</div>", unsafe_allow_html=True)
+
+    # 예문과 한글 해석 출력 (빈칸을 자동으로 넓게 치환)
+    exam_text = current_word.get('예문', '').replace('( )', '( &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; )').replace('()', '( &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; )')
+    st.markdown(f"<div class='exam-sentence'>{exam_text}</div>", unsafe_allow_html=True)
     st.markdown(f"<div class='korean-translation'>{current_word.get('한글 해석', '')}</div>", unsafe_allow_html=True)
 
     st.text_input(

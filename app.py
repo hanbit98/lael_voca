@@ -116,7 +116,7 @@ def check_answer():
 # 3. 화면 구성
 # ---------------------------------------------------------
 # 타이틀
-st.markdown("<h2 style='font-size: 30px;'>❤️보석같은 라엘❤️ 단어시험 뽀개기😁</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='font-size: 30px;'>❤️해피바이러스 라엘❤️ 단어시험 완전정복😁</h2>", unsafe_allow_html=True)
 
 # (A) 설정 화면
 if st.session_state['quiz_state'] == 'SETUP':
